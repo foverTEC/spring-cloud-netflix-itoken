@@ -45,6 +45,10 @@
         <!-- Spring Cloud Begin -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-feign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
         <dependency>
@@ -68,20 +72,6 @@
         </dependency>
         <!-- Spring Boot Admin End -->
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus Repository</name>
-            <url>http://192.168.0.105:8081/repository/maven-public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
