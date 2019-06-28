@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/itoken-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/pom.xml" />
       </list>
     </option>
   </component>

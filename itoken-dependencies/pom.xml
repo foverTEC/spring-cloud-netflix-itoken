@@ -28,10 +28,21 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
         <zipkin.version>2.10.1</zipkin.version>
+        <mysql.version>5.1.46</mysql.version>
+        <spring-boot-alibaba-druid.version>1.1.10</spring-boot-alibaba-druid.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+
+            <!--spring boot stater Begin-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${spring-boot-alibaba-druid.version}</version>
+            </dependency>
+            <!--spring boot stater end-->
+
             <!-- Spring Cloud Begin -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -72,6 +83,14 @@
                 <version>${zipkin.version}</version>
             </dependency>
             <!-- ZipKin End -->
+
+            <!--数据库驱动-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+                <scope>runtime</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

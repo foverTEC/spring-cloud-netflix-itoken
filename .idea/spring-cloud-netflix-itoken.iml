@@ -11,6 +11,8 @@
       <sourceFolder url="file://$MODULE_DIR$/itoken-hystrix/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/itoken-feign/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/itoken-feign/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/itoken-service-admin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/itoken-service-admin/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

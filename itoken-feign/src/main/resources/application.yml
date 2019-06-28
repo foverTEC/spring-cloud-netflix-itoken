@@ -5,3 +5,4 @@ spring:
       name: itoken-feign
       label: master
       profile: dev
+
